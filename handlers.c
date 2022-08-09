@@ -193,3 +193,5 @@ unsigned int (*handle_specifiers(const char *specifier))(va_list, buffer_t *,
 			return (converters[i].func);
 	}
 
+	return (NULL);
+}
