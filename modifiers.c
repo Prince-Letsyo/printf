@@ -80,3 +80,5 @@ unsigned int print_neg_width(buffer_t *output, unsigned int printed,
 			ret += _memcpy(output, &width, 1);
 	}
 
+	return (ret);
+}
